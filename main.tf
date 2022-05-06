@@ -16,4 +16,6 @@ module "aptos-fullnode" {
   machine_type   = var.machine_type
 }
 
+#
+
 
