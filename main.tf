@@ -1,9 +1,9 @@
 module "aptos-fullnode" {
   # download Terraform module from aptos-labs/aptos-core repo
   source        = "github.com/aptos-labs/aptos-core.git//terraform/fullnode/vultr?ref=main"
-  region        = var.fullnode_region
+  fullnode_region = var.fullnode_region
   era           = var.era
-  do_token      = var.api_key
+  api_key      = var.api_key
   image_tag     = var.image_tag
   helm_values   = var.helm_values
   fullnode_helm_values= var.fullnode_helm_values
