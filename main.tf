@@ -14,6 +14,7 @@ module "aptos-fullnode" {
   num_fullnodes  = var.num_fullnodes
   chain_id       = var.chain_id
   machine_type   = var.machine_type
+  block_storage_class   = var.block_storage_class
 }
 
 #
