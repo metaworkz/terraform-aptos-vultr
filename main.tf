@@ -1,6 +1,6 @@
 module "aptos-fullnode" {
   # download Terraform module from aptos-labs/aptos-core repo
-  source        = "github.com/aptos-labs/aptos-core.git//terraform/fullnode/vultr?ref=main"
+  source        = "github.com/metaworkz/aptos-core.git//terraform/fullnode/vultr?ref=terraform-vultr-high-perf-switch"
   fullnode_region = var.fullnode_region
   era           = var.era
   api_key      = var.api_key
